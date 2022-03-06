@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*image du fond du body*/
+
+body {
+    background-color: rgb(40, 25, 54);
+}
+
+/*style de la barre de navigatoion*/
+nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100px;
+}
+
+nav img { /*redimensionne le logo*/
+    width: 190px;
+    margin: 5px;
+}
+
+/*alligner les profils*/
+#tous {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+/*animation du profil avec la souris*/
+.profil img {
+    border: 2px solid transparent;
+    transition: all .3s;
+    max-width: 60%;
+    height: auto;
+}
+.profil:hover img {
+    border-style :  dashed solid ;
+    border-color: rgb(206, 175, 235);
+
+}
+
+/*changement de couleur des liens*/
+
+.profil p {
+    text-decoration: none;
+    color: white;
+}
+
+.profil:hover p {
+    color: rgb(206, 175, 235);
+}
+
+#ensemble {
+    margin: 0 10%;
+    margin-top: 150px;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    font-family: helvetica;
+}
